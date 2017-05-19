@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
 
+  get 'welcome/index'
+
   get 'categories/new'
 
   get 'categories/show'
 
-root to: 'index'
+get 'welcome/application'
+root to: 'welcome#application'
 
 
     resources :categories

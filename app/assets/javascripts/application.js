@@ -11,5 +11,18 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require jquery
 //= require turbolinks
 //= require_tree .
+//= require materialize-sprockets
+
+$(document).on('turbolinks:load', onLoad);
+
+function onLoad(){
+
+
+      $('.slider').slider({
+        indicators: false
+        });
+       $('.materialboxed').materialbox();
+    };
