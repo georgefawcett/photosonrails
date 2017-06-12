@@ -9,6 +9,8 @@ gem 'materialize-sass'
 
 gem "paperclip", "~> 5.0.0"
 
+gem 'font-awesome-sass'
+
 gem 'jquery-turbolinks'
 gem 'jquery-rails'
 
